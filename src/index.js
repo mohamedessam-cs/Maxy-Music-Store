@@ -1,4 +1,5 @@
 import React from "react";
+import $ from "jquery";
 import Checkout from "./Checkout/Checkout";
 import PlaceOrder from "./PlaceOrder/PlaceOrder";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -19,6 +20,8 @@ import { AllData } from "./AllData/AllData";
 import AllSingleProduct from "./AllSingleProduct/AllSingleProduct";
 import { CartProvider } from "react-use-cart";
 import ScrollToTop from "react-scroll-to-top";
+window.$ = $;
+window.jQuery = $;
 const ahmed = createBrowserRouter([
   {
     path: "/",

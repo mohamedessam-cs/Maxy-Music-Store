@@ -5,51 +5,98 @@ import { apiValue } from "../AllData/AllData";
 import { useCart } from "react-use-cart";
 
 function Cartt() {
+
   const { addItem } = useCart();
+
   const { id } = useParams();
+
   const navigate = useNavigate();
+
   const Data = useContext(apiValue);
 
-  const text = Data.find((item) => item.id === Number(id));
+  const text = Data?.find(
+    (item) => Number(item.id) === Number(id)
+  );
 
-  useEffect(() => {}, [id]);
-window.scrollTo({
-  top: 0,
-  behavior: "smooth"
-});
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [id]);
+
+  // API is still loading
+  if (Data.length === 0) {
+    return (
+      <>
+        <NavBar />
+
+        <div className="container text-center mt-5">
+          <h2>Loading...</h2>
+        </div>
+      </>
+    );
+  }
+
+  // Product doesn't exist
+  if (!text) {
+    return (
+      <>
+        <NavBar />
+
+        <div className="container text-center mt-5">
+
+          <h2>Product Not Found</h2>
+
+          <Link
+            to="/store"
+            className="btn btn-warning mt-3"
+          >
+            Back To Store
+          </Link>
+
+        </div>
+      </>
+    );
+  }
+
   return (
     <div>
-      <br />
-      <br />
-      <br />
 
-      <div className="container"></div>
+      <br />
+      <br />
+      <br />
 
       <div className="row">
 
-        {/* Image */}
+        {/* Product Image */}
+
         <div className="col-md-6 text-center">
+
           <img
-            src={text.images}
+            src={
+              Array.isArray(text.images)
+                ? text.images[0]
+                : text.images
+            }
             className="api-img2"
             alt={text.title}
           />
+
         </div>
 
         {/* Product Details */}
+
         <div className="col-md-6 text-center proudct-border product-details">
 
-          {/* Brand */}
           <h4 className="mt-4 brand product-brand">
             {text.brand}
           </h4>
 
-          {/* Title */}
           <h4 className="title">
             {text.title}
           </h4>
 
-          {/* Stars and Rating */}
           <div className="Stars product-stars">
 
             <h5 className="product-rating">
@@ -66,25 +113,20 @@ window.scrollTo({
 
           </div>
 
-          {/* Line */}
           <span className="product-line"></span>
 
-          {/* Price Before Discount */}
           <h6 className="mt-4 price-bef-dis product-old-price">
-            EGP {text.price0.toLocaleString("en-US")}
+            EGP {Number(text.price0).toLocaleString("en-US")}
           </h6>
 
-          {/* Price After Discount */}
           <h6 className="price-af-dis product-new-price">
-            EGP {text.price.toLocaleString("en-US")}
+            EGP {Number(text.price).toLocaleString("en-US")}
           </h6>
 
-          {/* Description */}
           <h1 className="desc">
             {text.description}
           </h1>
 
-          {/* Product Information */}
           <div className="product-info">
 
             <h4 className="mt-4">
@@ -119,7 +161,6 @@ window.scrollTo({
 
           </div>
 
-          {/* Product Actions */}
           <div className="product-actions">
 
             <button
@@ -144,7 +185,9 @@ window.scrollTo({
           </div>
 
         </div>
+
       </div>
+
     </div>
   );
 }
