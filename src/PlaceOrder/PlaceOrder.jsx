@@ -3,7 +3,6 @@ import React from "react";
 import { Link, useLocation } from "react-router";
 import NavBar from "../NavBar/NavBar";
 
-
 function PlaceOrder() {
 
   const location = useLocation();
@@ -144,7 +143,6 @@ function PlaceOrder() {
 
           <div className="checkout-summary">
 
-
             <div className="summary-row">
 
               <span>
@@ -165,7 +163,7 @@ function PlaceOrder() {
               </span>
 
               <strong>
-                ${order.totalPrice}
+                {order.totalPrice} EGP
               </strong>
 
             </div>
@@ -194,11 +192,10 @@ function PlaceOrder() {
               </span>
 
               <strong>
-                ${order.totalPrice}
+                {order.totalPrice} EGP
               </strong>
 
             </div>
-
 
           </div>
 
@@ -213,9 +210,6 @@ function PlaceOrder() {
             >
               Continue Shopping
             </Link>
-
-
-          
 
           </div>
 
@@ -232,6 +226,4 @@ function PlaceOrder() {
   );
 }
 
-
 export default PlaceOrder;
-

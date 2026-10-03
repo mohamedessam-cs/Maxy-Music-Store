@@ -4,7 +4,6 @@ import { useCart } from "react-use-cart";
 import { Link, useNavigate } from "react-router";
 import NavBar from "../NavBar/NavBar";
 
-
 function Checkout() {
 
   const {
@@ -318,41 +317,53 @@ function Checkout() {
 
             <div className="checkout-products">
 
-              {items.map((item) => (
+              {items.map((item) => {
 
-                <div
-                  className="checkout-product"
-                  key={item.id}
-                >
+                const productImage = Array.isArray(item.images)
+                  ? item.images[0]
+                  : item.images;
 
-                  <img
-                    src={item.images[0]}
-                    alt={item.title}
-                  />
+                return (
+
+                  <div
+                    className="checkout-product"
+                    key={item.id}
+                  >
+
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        productImage
+                      }
+                      alt={item.title}
+                    />
 
 
-                  <div className="checkout-product-info">
+                    <div className="checkout-product-info">
 
-                    <h4>
-                      {item.title}
-                    </h4>
+                      <h4>
+                        {item.title}
+                      </h4>
 
-                    <p>
-                      Quantity: {item.quantity}
-                    </p>
+                      <p>
+                        Quantity: {item.quantity}
+                      </p>
+
+                    </div>
+
+
+                    <strong>
+                      {Math.ceil(
+                        item.price * item.quantity
+                      ).toLocaleString("en-US")}{" "}
+                      EGP
+                    </strong>
 
                   </div>
 
+                );
 
-                  <strong>
-                    {Math.ceil(
-                      item.price * item.quantity
-                    ).toLocaleString("en-US")}$
-                  </strong>
-
-                </div>
-
-              ))}
+              })}
 
             </div>
 

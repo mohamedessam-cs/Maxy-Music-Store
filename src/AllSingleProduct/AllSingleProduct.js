@@ -1,3 +1,4 @@
+
 import { useContext, useEffect } from "react";
 import NavBar from "../NavBar/NavBar";
 import { useParams, Link, useNavigate } from "react-router";
@@ -25,8 +26,10 @@ function Cartt() {
     });
   }, [id]);
 
+
   // API is still loading
   if (Data.length === 0) {
+
     return (
       <>
         <NavBar />
@@ -38,8 +41,10 @@ function Cartt() {
     );
   }
 
+
   // Product doesn't exist
   if (!text) {
+
     return (
       <>
         <NavBar />
@@ -60,6 +65,13 @@ function Cartt() {
     );
   }
 
+
+  // Product image path
+  const productImage = Array.isArray(text.images)
+    ? text.images[0]
+    : text.images;
+
+
   return (
     <div>
 
@@ -69,15 +81,16 @@ function Cartt() {
 
       <div className="row">
 
-        {/* Product Image */}
+
+        {/* =========================
+            Product Image
+        ========================= */}
 
         <div className="col-md-6 text-center">
 
           <img
             src={
-              Array.isArray(text.images)
-                ? text.images[0]
-                : text.images
+              process.env.PUBLIC_URL + productImage
             }
             className="api-img2"
             alt={text.title}
@@ -85,7 +98,10 @@ function Cartt() {
 
         </div>
 
-        {/* Product Details */}
+
+        {/* =========================
+            Product Details
+        ========================= */}
 
         <div className="col-md-6 text-center proudct-border product-details">
 
@@ -93,9 +109,13 @@ function Cartt() {
             {text.brand}
           </h4>
 
+
           <h4 className="title">
             {text.title}
           </h4>
+
+
+          {/* Rating */}
 
           <div className="Stars product-stars">
 
@@ -113,19 +133,32 @@ function Cartt() {
 
           </div>
 
+
           <span className="product-line"></span>
+
+
+          {/* Old Price */}
 
           <h6 className="mt-4 price-bef-dis product-old-price">
             EGP {Number(text.price0).toLocaleString("en-US")}
           </h6>
 
+
+          {/* New Price */}
+
           <h6 className="price-af-dis product-new-price">
             EGP {Number(text.price).toLocaleString("en-US")}
           </h6>
 
+
+          {/* Description */}
+
           <h1 className="desc">
             {text.description}
           </h1>
+
+
+          {/* Product Information */}
 
           <div className="product-info">
 
@@ -134,25 +167,30 @@ function Cartt() {
               Brand: {text.brand}
             </h4>
 
+
             <h4 className="mt-4">
               <i className="fa-solid fa-crop-simple"></i>
               Category: {text.category}
             </h4>
+
 
             <h4 className="mt-4">
               <i className="fa-solid fa-box"></i>
               Stock: {text.stock}
             </h4>
 
+
             <h4 className="mt-4">
               <i className="fa-solid fa-tag"></i>
               Discount: {text.discountPercentage}%
             </h4>
 
+
             <h4 className="mt-4">
               <i className="fa-solid fa-star"></i>
               Rating: {text.rating}
             </h4>
+
 
             <h4>
               <i className="fa-brands fa-orcid"></i>
@@ -161,18 +199,25 @@ function Cartt() {
 
           </div>
 
+
+          {/* Product Actions */}
+
           <div className="product-actions">
 
             <button
               type="button"
               className="product-action-button add-to-cart"
               onClick={() => {
+
                 addItem(text);
+
                 navigate("/cart");
+
               }}
             >
               Add to cart
             </button>
+
 
             <Link
               to="/store"
@@ -192,13 +237,19 @@ function Cartt() {
   );
 }
 
+
 function AllSingleProduct() {
+
   return (
     <div>
+
       <NavBar />
+
       <Cartt />
+
     </div>
   );
 }
+
 
 export default AllSingleProduct;

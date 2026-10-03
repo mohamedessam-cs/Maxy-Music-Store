@@ -1,12 +1,17 @@
-import React from 'react'
+
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Infor() {
   return (
-   <div className="about-page">
+    <div className="about-page">
 
-      {/* Banner بتاعك يفضل هنا بدون تغيير */}
-      
+      {/* =========================
+          ABOUT INTRO
+      ========================= */}
+
       <section className="about-intro">
+
         <div className="section-title">
           <span></span>
           <h2>ABOUT MAXY</h2>
@@ -22,17 +27,31 @@ function Infor() {
           and want quality instruments, professional equipment and great
           prices all in one place.
         </p>
+
       </section>
 
+
+      {/* =========================
+          ABOUT CONTENT
+      ========================= */}
 
       <section className="about-content">
 
         <div className="about-image">
-          <img src="/img/About1.jpg" alt="Music instruments" />
+
+          <img
+            src={process.env.PUBLIC_URL + "/img/About1.jpg"}
+            alt="Music instruments"
+          />
+
         </div>
 
+
         <div className="about-text">
-          <span className="small-title">WHO WE ARE</span>
+
+          <span className="small-title">
+            WHO WE ARE
+          </span>
 
           <h2>
             Everything You Need
@@ -52,42 +71,79 @@ function Infor() {
             musicians need together in one place.
           </p>
 
+
+          {/* FEATURES */}
+
           <div className="about-features">
 
             <div className="feature">
-              <div className="feature-icon">♪</div>
+
+              <div className="feature-icon">
+                ♪
+              </div>
+
               <div>
                 <h3>Quality Products</h3>
-                <p>Reliable products from trusted brands.</p>
+
+                <p>
+                  Reliable products from trusted brands.
+                </p>
               </div>
+
             </div>
 
+
             <div className="feature">
-              <div className="feature-icon">★</div>
+
+              <div className="feature-icon">
+                ★
+              </div>
+
               <div>
                 <h3>Best Prices</h3>
-                <p>Great value for musicians and creators.</p>
+
+                <p>
+                  Great value for musicians and creators.
+                </p>
               </div>
+
             </div>
 
+
             <div className="feature">
-              <div className="feature-icon">♫</div>
+
+              <div className="feature-icon">
+                ♫
+              </div>
+
               <div>
                 <h3>For Every Musician</h3>
-                <p>Everything from beginners to professionals.</p>
+
+                <p>
+                  Everything from beginners to professionals.
+                </p>
               </div>
+
             </div>
 
           </div>
+
         </div>
 
       </section>
 
 
+      {/* =========================
+          ABOUT BANNER
+      ========================= */}
+
       <section className="about-banner">
 
         <div className="about-banner-content">
-          <span>YOUR MUSIC. YOUR STYLE.</span>
+
+          <span>
+            YOUR MUSIC. YOUR STYLE.
+          </span>
 
           <h2>
             PLAY IT.
@@ -99,44 +155,72 @@ function Infor() {
             amazing.
           </p>
 
-          <a href="/store" className="about-button">
+          <Link
+            to="/store"
+            className="about-button"
+          >
             EXPLORE STORE
-          </a>
+          </Link>
+
         </div>
 
       </section>
 
 
+      {/* =========================
+          ABOUT VALUES
+      ========================= */}
+
       <section className="about-values">
 
         <div className="value-card">
+
           <span>01</span>
-          <h3>Quality</h3>
+
+          <h3>
+            Quality
+          </h3>
+
           <p>
             We focus on providing quality products for every musician.
           </p>
+
         </div>
 
+
         <div className="value-card active">
+
           <span>02</span>
-          <h3>Passion</h3>
+
+          <h3>
+            Passion
+          </h3>
+
           <p>
             Music is more than a product. It's a passion and a lifestyle.
           </p>
+
         </div>
 
+
         <div className="value-card">
+
           <span>03</span>
-          <h3>Choice</h3>
+
+          <h3>
+            Choice
+          </h3>
+
           <p>
             A wide selection of instruments and equipment in one place.
           </p>
+
         </div>
 
       </section>
 
     </div>
-  )
+  );
 }
 
-export default Infor
+export default Infor;
