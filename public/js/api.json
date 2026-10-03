@@ -1,0 +1,949 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Yamaha Pacifica Electric Guitar",
+      "description": "Professional electric guitar with a comfortable neck and versatile tone. Its balanced pickup setup handles everything from clean rhythm to heavy lead playing, making it a dependable choice for practice, recording, and live stages.",
+      "category": "Guitars",
+      "price0": 35000,
+      "price": 33250,
+      "discountPercentage": 5,
+      "rating": 4.8,
+      "stock": 12,
+      "tags": [
+        "guitars",
+        "yamaha"
+      ],
+      "brand": "Yamaha",
+      "sku": "MXY-001",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Yamaha Pacifica Electric Guitar.jpg"
+      ],
+      "thumbnail": "/Api img/Yamaha Pacifica Electric Guitar.jpg",
+      "image": "/Api img/Yamaha Pacifica Electric Guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Fender Player Stratocaster",
+      "description": "Classic electric guitar design suitable for practice, recording and live performance. Its bright, chimey single-coil tone and contoured body deliver the iconic Stratocaster sound that suits blues, rock, and pop players alike.",
+      "category": "Guitars",
+      "price0": 45200,
+      "price": 41584,
+      "discountPercentage": 8,
+      "rating": 4.9,
+      "stock": 10,
+      "tags": [
+        "guitars",
+        "fender"
+      ],
+      "brand": "Fender",
+      "sku": "MXY-002",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Fender Player Stratocaster.jpg"
+      ],
+      "thumbnail": "/Api img/Fender Player Stratocaster.jpg",
+      "image": "/Api img/Fender Player Stratocaster.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Gibson Les Paul Style Guitar",
+      "description": "Powerful electric guitar built for rich sustain and expressive playing. Its thick, warm humbucker tone and solid body construction make it ideal for rock, blues, and lead work, from home practice to the big stage.",
+      "category": "Guitars",
+      "price0": 79000,
+      "price": 71100,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 8,
+      "tags": [
+        "guitars",
+        "gibson"
+      ],
+      "brand": "Gibson",
+      "sku": "MXY-003",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Gibson Les Paul Style Guitar.jpg"
+      ],
+      "thumbnail": "/Api img/Gibson Les Paul Style Guitar.jpg",
+      "image": "/Api img/Gibson Les Paul Style Guitar.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Ibanez RG Electric Guitar",
+      "description": "Fast-playing electric guitar designed for modern players and stage performance. Its slim neck and low action make quick runs and technical solos effortless, while the powerful pickups deliver a tight, aggressive tone.",
+      "category": "Guitars",
+      "price0": 32000,
+      "price": 28160,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "stock": 15,
+      "tags": [
+        "guitars",
+        "ibanez"
+      ],
+      "brand": "Ibanez",
+      "sku": "MXY-004",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Ibanez RG Electric Guitar.jpg"
+      ],
+      "thumbnail": "/Api img/Ibanez RG Electric Guitar.jpg",
+      "image": "/Api img/Ibanez RG Electric Guitar.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Yamaha F310 Acoustic Guitar",
+      "description": "Steel-string acoustic guitar with a balanced sound for beginners and performers. Its full body produces a warm, clear tone with solid projection, and the comfortable neck makes it easy to learn on and enjoyable to play.",
+      "category": "Guitars",
+      "price0": 11000,
+      "price": 9350,
+      "discountPercentage": 15,
+      "rating": 4.8,
+      "stock": 22,
+      "tags": [
+        "guitars",
+        "yamaha"
+      ],
+      "brand": "Yamaha",
+      "sku": "MXY-005",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Yamaha F310 Acoustic Guitar.jpg"
+      ],
+      "thumbnail": "/Api img/Yamaha F310 Acoustic Guitar.jpg",
+      "image": "/Api img/Yamaha F310 Acoustic Guitar.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Fender FA-125 Acoustic Guitar",
+      "description": "Affordable acoustic guitar with a comfortable feel and bright natural tone. Its dreadnought body gives a full, resonant sound for strumming and picking, making it a great starter guitar for home, campfire, or classroom use.",
+      "category": "Guitars",
+      "price0": 15000,
+      "price": 14250,
+      "discountPercentage": 5,
+      "rating": 4.7,
+      "stock": 18,
+      "tags": [
+        "guitars",
+        "fender"
+      ],
+      "brand": "Fender",
+      "sku": "MXY-006",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Fender FA-125 Acoustic Guitar.jpg"
+      ],
+      "thumbnail": "/Api img/Fender FA-125 Acoustic Guitar.jpg",
+      "image": "/Api img/Fender FA-125 Acoustic Guitar.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Classic Nylon String Guitar",
+      "description": "Nylon-string classical guitar with a warm tone for fingerstyle playing. The soft nylon strings are gentle on the fingers and the wide neck leaves room for clean technique, perfect for classical, flamenco, and beginner lessons.",
+      "category": "Guitars",
+      "price0": 22500,
+      "price": 20700,
+      "discountPercentage": 8,
+      "rating": 4.6,
+      "stock": 14,
+      "tags": [
+        "guitars",
+        "cordoba"
+      ],
+      "brand": "Cordoba",
+      "sku": "MXY-007",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Classic Nylon String Guitar.jpg"
+      ],
+      "thumbnail": "/Api img/Classic Nylon String Guitar.jpg",
+      "image": "/Api img/Classic Nylon String Guitar.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Marshall MG15 Guitar Amplifier",
+      "description": "Compact practice amplifier with classic guitar amp character. It offers a simple control layout with clean and overdriven sounds, making it perfect for bedroom practice, small rehearsals, and learning new songs.",
+      "category": "Amplifiers",
+      "price0": 7500,
+      "price": 6750,
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "stock": 25,
+      "tags": [
+        "amplifiers",
+        "marshall"
+      ],
+      "brand": "Marshall",
+      "sku": "MXY-008",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Marshall MG15 Guitar Amplifier.jpg"
+      ],
+      "thumbnail": "/Api img/Marshall MG15 Guitar Amplifier.jpg",
+      "image": "/Api img/Marshall MG15 Guitar Amplifier.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Fender Mustang LT25 Amplifier",
+      "description": "Versatile modeling amplifier with multiple tones for home practice. It includes a wide range of built-in amp models and effects, along with an onboard tuner, so you can explore different styles without extra gear.",
+      "category": "Amplifiers",
+      "price0": 13000,
+      "price": 11440,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 16,
+      "tags": [
+        "amplifiers",
+        "fender"
+      ],
+      "brand": "Fender",
+      "sku": "MXY-009",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Fender Mustang LT25 Amplifier.jpg"
+      ],
+      "thumbnail": "/Api img/Fender Mustang LT25 Amplifier.jpg",
+      "image": "/Api img/Fender Mustang LT25 Amplifier.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Boss Katana Mini Amplifier",
+      "description": "Portable guitar amplifier for practice and small setups. Despite its small size it delivers a punchy, rich tone with built-in gain and effect options, and it can run on batteries, so you can play anywhere.",
+      "category": "Amplifiers",
+      "price0": 6500,
+      "price": 5525,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 20,
+      "tags": [
+        "amplifiers",
+        "boss"
+      ],
+      "brand": "Boss",
+      "sku": "MXY-010",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Boss Katana Mini Amplifier.jpg"
+      ],
+      "thumbnail": "/Api img/Boss Katana Mini Amplifier.jpg",
+      "image": "/Api img/Boss Katana Mini Amplifier.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Yamaha P-125 Digital Piano",
+      "description": "Portable digital piano with realistic piano feel and useful performance features. The weighted keys respond naturally to your touch, and the rich sampled piano sound suits students, home players, and stage use.",
+      "category": "Keyboards",
+      "price0": 39000,
+      "price": 37050,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "stock": 9,
+      "tags": [
+        "keyboards",
+        "yamaha"
+      ],
+      "brand": "Yamaha",
+      "sku": "MXY-011",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Yamaha P-125 Digital Piano.jpg"
+      ],
+      "thumbnail": "/Api img/Yamaha P-125 Digital Piano.jpg",
+      "image": "/Api img/Yamaha P-125 Digital Piano.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Casio CT-S300 Keyboard",
+      "description": "Portable keyboard with beginner-friendly controls and a wide range of sounds. Its lightweight body and built-in rhythms make it easy to carry and fun to learn on, with plenty of tones to explore as you grow.",
+      "category": "Keyboards",
+      "price0": 11550,
+      "price": 10626,
+      "discountPercentage": 8,
+      "rating": 4.6,
+      "stock": 30,
+      "tags": [
+        "keyboards",
+        "casio"
+      ],
+      "brand": "Casio",
+      "sku": "MXY-012",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Casio CT-S300 Keyboard.jpg"
+      ],
+      "thumbnail": "/Api img/Casio CT-S300 Keyboard.jpg",
+      "image": "/Api img/Casio CT-S300 Keyboard.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Roland FP-30X Digital Piano",
+      "description": "Digital piano with expressive sound and weighted keys for serious practice. Its authentic piano response and Bluetooth connectivity let you play, learn with apps, and record, all in a compact modern design.",
+      "category": "Keyboards",
+      "price0": 44408,
+      "price": 39967,
+      "discountPercentage": 10,
+      "rating": 4.9,
+      "stock": 7,
+      "tags": [
+        "keyboards",
+        "roland"
+      ],
+      "brand": "Roland",
+      "sku": "MXY-013",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Roland FP-30X Digital Piano.jpg"
+      ],
+      "thumbnail": "/Api img/Roland FP-30X Digital Piano.jpg",
+      "image": "/Api img/Roland FP-30X Digital Piano.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Korg Kross 2 Synthesizer",
+      "description": "Flexible performance synthesizer for live playing and music production. It packs a huge library of sounds, a built-in sequencer, and a sturdy lightweight build, making it ideal for the stage, rehearsal room, and studio.",
+      "category": "Keyboards",
+      "price0": 47100,
+      "price": 41448,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 11,
+      "tags": [
+        "keyboards",
+        "korg"
+      ],
+      "brand": "Korg",
+      "sku": "MXY-014",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Korg Kross 2 Synthesizer.jpg"
+      ],
+      "thumbnail": "/Api img/Korg Kross 2 Synthesizer.jpg",
+      "image": "/Api img/Korg Kross 2 Synthesizer.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Alesis Recital 88-Key Piano",
+      "description": "Full-size digital piano designed for students, practice and home performance. Its 88 semi-weighted keys give a comfortable playing feel, and the built-in voices and simple controls make it easy to start playing right away.",
+      "category": "Keyboards",
+      "price0": 17200,
+      "price": 14620,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 19,
+      "tags": [
+        "keyboards",
+        "alesis"
+      ],
+      "brand": "Alesis",
+      "sku": "MXY-015",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Alesis Recital 88-Key Piano.jpg"
+      ],
+      "thumbnail": "/Api img/Alesis Recital 88-Key Piano.jpg",
+      "image": "/Api img/Alesis Recital 88-Key Piano.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Yamaha Stage Custom Drum Kit",
+      "description": "Full acoustic drum kit for rehearsal, recording and live performance. Its birch shells deliver a punchy, warm tone and strong projection, with reliable hardware that holds up for regular practice and gigs.",
+      "category": "Drums",
+      "price0": 62800,
+      "price": 59660,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "stock": 6,
+      "tags": [
+        "drums",
+        "yamaha"
+      ],
+      "brand": "Yamaha",
+      "sku": "MXY-016",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Yamaha Stage Custom Drum Kit.jpg"
+      ],
+      "thumbnail": "/Api img/Yamaha Stage Custom Drum Kit.jpg",
+      "image": "/Api img/Yamaha Stage Custom Drum Kit.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Pearl Roadshow Drum Kit",
+      "description": "Complete drum set with hardware for beginners and developing drummers. It comes with everything needed to start playing, including cymbals, stands, and a throne, offering a balanced sound and great value for growing players.",
+      "category": "Drums",
+      "price0": 52300,
+      "price": 48116,
+      "discountPercentage": 8,
+      "rating": 4.8,
+      "stock": 8,
+      "tags": [
+        "drums",
+        "pearl"
+      ],
+      "brand": "Pearl",
+      "sku": "MXY-017",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Pearl Roadshow Drum Kit.jpg"
+      ],
+      "thumbnail": "/Api img/Pearl Roadshow Drum Kit.jpg",
+      "image": "/Api img/Pearl Roadshow Drum Kit.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Roland TD-07 Electronic Drums",
+      "description": "Electronic drum kit with responsive pads and practice-friendly features. The natural-feeling pads and quiet playing make it great for apartments, with headphone support, built-in coaching tools, and a wide choice of kits.",
+      "category": "Drums",
+      "price0": 57600,
+      "price": 51840,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 5,
+      "tags": [
+        "drums",
+        "roland"
+      ],
+      "brand": "Roland",
+      "sku": "MXY-018",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Roland TD-07 Electronic Drums.jpg"
+      ],
+      "thumbnail": "/Api img/Roland TD-07 Electronic Drums.jpg",
+      "image": "/Api img/Roland TD-07 Electronic Drums.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Meinl Cajon",
+      "description": "Compact wooden percussion instrument for acoustic sessions and performances. You sit on it and play with your hands to get deep bass tones and sharp snare-like slaps, so it is easy to carry and fits any setting.",
+      "category": "Percussion",
+      "price0": 5200,
+      "price": 4576,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "stock": 35,
+      "tags": [
+        "percussion",
+        "meinl"
+      ],
+      "brand": "Meinl",
+      "sku": "MXY-019",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Meinl Cajon.jpg"
+      ],
+      "thumbnail": "/Api img/Meinl Cajon.jpg",
+      "image": "/Api img/Meinl Cajon.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Shure SM58 Vocal Microphone",
+      "description": "Durable dynamic microphone suitable for vocals, rehearsal and live use. Its cardioid pattern reduces background noise and feedback, while the rugged build and clear, focused sound have made it a stage standard for decades.",
+      "category": "Microphones",
+      "price0": 8930,
+      "price": 7590,
+      "discountPercentage": 15,
+      "rating": 4.9,
+      "stock": 40,
+      "tags": [
+        "microphones",
+        "shure"
+      ],
+      "brand": "Shure",
+      "sku": "MXY-020",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Shure SM58 Vocal Microphone.jpg"
+      ],
+      "thumbnail": "/Api img/Shure SM58 Vocal Microphone.jpg",
+      "image": "/Api img/Shure SM58 Vocal Microphone.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Audio-Technica AT2020 Microphone",
+      "description": "Condenser microphone designed for clear vocals, instruments and home recording. Its cardioid pattern captures detailed, natural sound while rejecting room noise, making it a popular pick for podcasts and project studios.",
+      "category": "Microphones",
+      "price0": 7955,
+      "price": 7557,
+      "discountPercentage": 5,
+      "rating": 4.8,
+      "stock": 27,
+      "tags": [
+        "microphones",
+        "audio-technica"
+      ],
+      "brand": "Audio-Technica",
+      "sku": "MXY-021",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Audio-Technica AT2020 Microphone.jpg"
+      ],
+      "thumbnail": "/Api img/Audio-Technica AT2020 Microphone.jpg",
+      "image": "/Api img/Audio-Technica AT2020 Microphone.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Rode NT1 Studio Microphone",
+      "description": "Studio condenser microphone with detailed sound for recording applications. It has very low self-noise and a smooth, transparent tone, ideal for capturing vocals and acoustic instruments in a professional studio.",
+      "category": "Microphones",
+      "price0": 15999,
+      "price": 14719,
+      "discountPercentage": 8,
+      "rating": 4.9,
+      "stock": 13,
+      "tags": [
+        "microphones",
+        "rode"
+      ],
+      "brand": "Rode",
+      "sku": "MXY-022",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Rode NT1 Studio Microphone.jpg"
+      ],
+      "thumbnail": "/Api img/Rode NT1 Studio Microphone.jpg",
+      "image": "/Api img/Rode NT1 Studio Microphone.jpg"
+    },
+    {
+      "id": 23,
+      "title": "AKG P120 Condenser Microphone",
+      "description": "Versatile condenser microphone for vocals, acoustic instruments and streaming. Its large diaphragm captures a clear, balanced sound, and the switchable pad and low-cut filter help control loud sources and unwanted noise.",
+      "category": "Microphones",
+      "price0": 8790,
+      "price": 7911,
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "stock": 21,
+      "tags": [
+        "microphones",
+        "akg"
+      ],
+      "brand": "AKG",
+      "sku": "MXY-023",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/AKG P120 Condenser Microphone.jpg"
+      ],
+      "thumbnail": "/Api img/AKG P120 Condenser Microphone.jpg",
+      "image": "/Api img/AKG P120 Condenser Microphone.jpg"
+    },
+    {
+      "id": 24,
+      "title": "JBL EON One Compact Speaker",
+      "description": "Portable PA speaker for rehearsals, small events and live music. Its built-in mixer, battery-powered operation, and clear wide sound coverage make it easy to set up quickly wherever you perform.",
+      "category": "Speakers",
+      "price0": 48205,
+      "price": 42420,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 10,
+      "tags": [
+        "speakers",
+        "jbl"
+      ],
+      "brand": "JBL",
+      "sku": "MXY-024",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/JBL EON One Compact Speaker.jpg"
+      ],
+      "thumbnail": "/Api img/JBL EON One Compact Speaker.jpg",
+      "image": "/Api img/JBL EON One Compact Speaker.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Yamaha DBR12 Powered Speaker",
+      "description": "Powerful active speaker designed for clear sound in live setups. Its 12-inch woofer and built-in amplifier deliver strong, detailed output, and the lightweight cabinet works well as a main speaker or stage monitor.",
+      "category": "Speakers",
+      "price0": 36600,
+      "price": 31110,
+      "discountPercentage": 15,
+      "rating": 4.8,
+      "stock": 8,
+      "tags": [
+        "speakers",
+        "yamaha"
+      ],
+      "brand": "Yamaha",
+      "sku": "MXY-025",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Yamaha DBR12 Powered Speaker.jpg"
+      ],
+      "thumbnail": "/Api img/Yamaha DBR12 Powered Speaker.jpg",
+      "image": "/Api img/Yamaha DBR12 Powered Speaker.jpg"
+    },
+    {
+      "id": 26,
+      "title": "KRK Rokit 5 Studio Monitor",
+      "description": "Nearfield studio monitor for mixing, production and accurate listening. Its tuned design offers punchy bass and clear highs, and the built-in EQ adjustments help you get a reliable sound even in small studios.",
+      "category": "Studio Equipment",
+      "price0": 19850,
+      "price": 18858,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "stock": 14,
+      "tags": [
+        "studio equipment",
+        "krk"
+      ],
+      "brand": "KRK",
+      "sku": "MXY-026",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/KRK Rokit 5 Studio Monitor.jpg"
+      ],
+      "thumbnail": "/Api img/KRK Rokit 5 Studio Monitor.jpg",
+      "image": "/Api img/KRK Rokit 5 Studio Monitor.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Audio-Technica ATH-M50x Headphones",
+      "description": "Closed-back studio headphones with detailed sound for monitoring and listening. They offer deep, accurate bass and excellent isolation, plus a comfortable fit and detachable cables for long sessions.",
+      "category": "Headphones",
+      "price0": 11000,
+      "price": 10120,
+      "discountPercentage": 8,
+      "rating": 4.9,
+      "stock": 24,
+      "tags": [
+        "headphones",
+        "audio-technica"
+      ],
+      "brand": "Audio-Technica",
+      "sku": "MXY-027",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Audio-Technica ATH-M50x Headphones.jpg"
+      ],
+      "thumbnail": "/Api img/Audio-Technica ATH-M50x Headphones.jpg",
+      "image": "/Api img/Audio-Technica ATH-M50x Headphones.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Sony MDR-7506 Studio Headphones",
+      "description": "Reliable closed-back headphones for recording and studio monitoring. Their clear, detailed sound and foldable lightweight design have made them a long-time favorite for engineers, vocalists, and videographers.",
+      "category": "Headphones",
+      "price0": 6615,
+      "price": 5954,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 31,
+      "tags": [
+        "headphones",
+        "sony"
+      ],
+      "brand": "Sony",
+      "sku": "MXY-028",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Sony MDR-7506 Studio Headphones.jpg"
+      ],
+      "thumbnail": "/Api img/Sony MDR-7506 Studio Headphones.jpg",
+      "image": "/Api img/Sony MDR-7506 Studio Headphones.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Sennheiser HD 280 Pro",
+      "description": "Professional monitoring headphones with strong isolation for studio work. They block out outside noise effectively, deliver clear and accurate sound, and fold up compactly with comfortable pads for long sessions.",
+      "category": "Headphones",
+      "price0": 8500,
+      "price": 7480,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 18,
+      "tags": [
+        "headphones",
+        "sennheiser"
+      ],
+      "brand": "Sennheiser",
+      "sku": "MXY-029",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Sennheiser HD 280 Pro.jpg"
+      ],
+      "thumbnail": "/Api img/Sennheiser HD 280 Pro.jpg",
+      "image": "/Api img/Sennheiser HD 280 Pro.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Boss DS-1 Distortion Pedal",
+      "description": "Classic guitar effects pedal for adding distortion to electric guitar tones. It offers tone, level, and distortion controls to shape everything from light crunch to heavy saturation, all in a durable metal case.",
+      "category": "Effects",
+      "price0": 5000,
+      "price": 4250,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 32,
+      "tags": [
+        "effects",
+        "boss"
+      ],
+      "brand": "Boss",
+      "sku": "MXY-030",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Boss DS-1 Distortion Pedal.jpg"
+      ],
+      "thumbnail": "/Api img/Boss DS-1 Distortion Pedal.jpg",
+      "image": "/Api img/Boss DS-1 Distortion Pedal.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Dunlop Cry Baby Wah Pedal",
+      "description": "Expressive wah pedal for guitarists who want classic dynamic effects. Rocking the pedal sweeps the tone from thick bass to bright treble, creating the vocal quality used in rock, funk, and blues solos.",
+      "category": "Effects",
+      "price0": 8000,
+      "price": 7600,
+      "discountPercentage": 5,
+      "rating": 4.8,
+      "stock": 17,
+      "tags": [
+        "effects",
+        "dunlop"
+      ],
+      "brand": "Dunlop",
+      "sku": "MXY-031",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Dunlop Cry Baby Wah Pedal.jpg"
+      ],
+      "thumbnail": "/Api img/Dunlop Cry Baby Wah Pedal.jpg",
+      "image": "/Api img/Dunlop Cry Baby Wah Pedal.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Ernie Ball Guitar Strings",
+      "description": "Nickel-wound guitar strings designed for balanced tone and reliable playability. They provide a bright yet smooth sound with good flexibility for bending and strumming, making them a trusted choice for electric guitars.",
+      "category": "Accessories",
+      "price0": 720,
+      "price": 662,
+      "discountPercentage": 8,
+      "rating": 4.7,
+      "stock": 100,
+      "tags": [
+        "accessories",
+        "ernie ball"
+      ],
+      "brand": "Ernie Ball",
+      "sku": "MXY-032",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Ernie Ball Guitar Strings.jpg"
+      ],
+      "thumbnail": "/Api img/Ernie Ball Guitar Strings.jpg",
+      "image": "/Api img/Ernie Ball Guitar Strings.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Fender Guitar Cable",
+      "description": "Durable instrument cable for connecting electric guitars and amplifiers. Its shielded construction reduces noise and interference, while the sturdy connectors and flexible jacket keep your signal clean and reliable.",
+      "category": "Accessories",
+      "price0": 1000,
+      "price": 900,
+      "discountPercentage": 10,
+      "rating": 4.6,
+      "stock": 80,
+      "tags": [
+        "accessories",
+        "fender"
+      ],
+      "brand": "Fender",
+      "sku": "MXY-033",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Fender Guitar Cable.jpg"
+      ],
+      "thumbnail": "/Api img/Fender Guitar Cable.jpg",
+      "image": "/Api img/Fender Guitar Cable.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Hercules Guitar Stand",
+      "description": "Stable guitar stand for safe storage at home, rehearsal rooms and studios. Its secure support keeps your instrument upright and protected, and the foldable design is easy to carry and quick to set up.",
+      "category": "Accessories",
+      "price0": 2500,
+      "price": 2200,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "stock": 45,
+      "tags": [
+        "accessories",
+        "hercules"
+      ],
+      "brand": "Hercules",
+      "sku": "MXY-034",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Hercules Guitar Stand.jpg"
+      ],
+      "thumbnail": "/Api img/Hercules Guitar Stand.jpg",
+      "image": "/Api img/Hercules Guitar Stand.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Korg Chromatic Tuner",
+      "description": "Compact chromatic tuner for accurate and convenient instrument tuning. Its clear display and fast response make it simple to tune guitars, basses, and other instruments quickly, even on a busy stage.",
+      "category": "Accessories",
+      "price0": 1500,
+      "price": 1275,
+      "discountPercentage": 15,
+      "rating": 4.8,
+      "stock": 55,
+      "tags": [
+        "accessories",
+        "korg"
+      ],
+      "brand": "Korg",
+      "sku": "MXY-035",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Korg Chromatic Tuner.jpg"
+      ],
+      "thumbnail": "/Api img/Korg Chromatic Tuner.jpg",
+      "image": "/Api img/Korg Chromatic Tuner.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Mackie Mix8 Audio Mixer",
+      "description": "Compact analog mixer for microphones, instruments and small audio setups. It offers simple gain and EQ controls with clean sound, perfect for small rehearsals, home studios, and live performances.",
+      "category": "Studio Equipment",
+      "price0": 5800,
+      "price": 5510,
+      "discountPercentage": 5,
+      "rating": 4.7,
+      "stock": 15,
+      "tags": [
+        "studio equipment",
+        "mackie"
+      ],
+      "brand": "Mackie",
+      "sku": "MXY-036",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Mackie Mix8 Audio Mixer.jpg"
+      ],
+      "thumbnail": "/Api img/Mackie Mix8 Audio Mixer.jpg",
+      "image": "/Api img/Mackie Mix8 Audio Mixer.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Focusrite Scarlett Solo Interface",
+      "description": "USB audio interface for recording microphones and instruments at home. It provides clean preamps, a direct instrument input, and headphone monitoring, so you can record vocals and guitar with studio-quality sound.",
+      "category": "Studio Equipment",
+      "price0": 4050,
+      "price": 3726,
+      "discountPercentage": 8,
+      "rating": 4.9,
+      "stock": 20,
+      "tags": [
+        "studio equipment",
+        "focusrite"
+      ],
+      "brand": "Focusrite",
+      "sku": "MXY-037",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Focusrite Scarlett Solo Interface.jpg"
+      ],
+      "thumbnail": "/Api img/Focusrite Scarlett Solo Interface.jpg",
+      "image": "/Api img/Focusrite Scarlett Solo Interface.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Roland TR-08 Rhythm Composer",
+      "description": "Compact rhythm machine for beat making, practice and electronic music production. It recreates the classic TR-808 drum sounds with hands-on step sequencing, letting you build grooves quickly in a portable design.",
+      "category": "Drums",
+      "price0": 26000,
+      "price": 23400,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 12,
+      "tags": [
+        "drums",
+        "roland"
+      ],
+      "brand": "Roland",
+      "sku": "MXY-038",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Roland TR-08 Rhythm Composer.jpg"
+      ],
+      "thumbnail": "/Api img/Roland TR-08 Rhythm Composer.jpg",
+      "image": "/Api img/Roland TR-08 Rhythm Composer.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Shure SM7B Studio Microphone",
+      "description": "Professional dynamic microphone designed for vocals, podcasting and studio recording. Its smooth, warm sound and strong rejection of background noise have made it a favorite for broadcast, singing, and spoken word.",
+      "category": "Microphones",
+      "price0": 32380,
+      "price": 30113,
+      "discountPercentage": 7,
+      "rating": 4.9,
+      "stock": 9,
+      "tags": [
+        "microphones",
+        "shure"
+      ],
+      "brand": "Shure",
+      "sku": "MXY-039",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Shure SM7B Studio Microphone.jpg"
+      ],
+      "thumbnail": "/Api img/Shure SM7B Studio Microphone.jpg",
+      "image": "/Api img/Shure SM7B Studio Microphone.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Fender Player Jazz Bass",
+      "description": "Versatile electric bass guitar with a comfortable feel and powerful classic tone. Its slim neck and dual pickups provide a wide range of sounds, from deep, warm lows to punchy, articulate highs for any genre.",
+      "category": "Guitars",
+      "price0": 50000,
+      "price": 45000,
+      "discountPercentage": 10,
+      "rating": 4.9,
+      "stock": 11,
+      "tags": [
+        "guitars",
+        "bass",
+        "fender"
+      ],
+      "brand": "Fender",
+      "sku": "MXY-040",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Fender Player Jazz Bass.jpg"
+      ],
+      "thumbnail": "/Api img/Fender Player Jazz Bass.jpg",
+      "image": "/Api img/Fender Player Jazz Bass.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Yamaha HS5 Studio Monitor",
+      "description": "Compact studio monitor with clear, accurate sound for music production and mixing. Its flat, honest response helps you hear problems in your mix, and the small size fits comfortably in home studios.",
+      "category": "Studio Equipment",
+      "price0": 11475,
+      "price": 10557,
+      "discountPercentage": 8,
+      "rating": 4.8,
+      "stock": 16,
+      "tags": [
+        "studio equipment",
+        "yamaha",
+        "monitor"
+      ],
+      "brand": "Yamaha",
+      "sku": "MXY-041",
+      "availabilityStatus": "In Stock",
+      "images": [
+        "/Api img/Yamaha HS5 Studio Monitor.jpg"
+      ],
+      "thumbnail": "/Api img/Yamaha HS5 Studio Monitor.jpg",
+      "image": "/Api img/Yamaha HS5 Studio Monitor.jpg"
+    }
+  ]
+}
