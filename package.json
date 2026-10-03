@@ -2,6 +2,7 @@
   "name": "graduated",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mohamedessam-cs.github.io/Maxy-Music-Store/",
 
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",
