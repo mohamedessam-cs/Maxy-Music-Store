@@ -14,11 +14,17 @@
     } */
        
     
+     @media screen and (max-width: 500px) {
+    .tm-banner-link {
+   padding-right: 2%;
+    }
 }
+}
+
 @media screen  and (min-width:400px) and (max-width:450px) {
 
  .par {
-        transform: translateX(106px) !important;}
+        transform: translateX(88px) !important;}
 
 
 }
@@ -43,7 +49,7 @@
 
 
     .link {
-        transform: translateX(-180px) !important;
+        transform: translateX(-173px) !important;
         margin-bottom: 60px !important;
         
      }
