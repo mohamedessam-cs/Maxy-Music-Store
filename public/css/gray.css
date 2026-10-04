@@ -380,3 +380,17 @@
 
 
 }
+ @media screen and (width: 768px)  {
+    .hr-gray {
+        transform: translateX(0px);
+    }
+
+    .tm-section-title {
+        transform: translateX(-4px);
+    }
+
+    .par {
+        transform: translateX(73px);
+        margin-left: -55px;
+    }
+}
