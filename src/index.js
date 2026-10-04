@@ -20,44 +20,22 @@ import { AllData } from "./AllData/AllData";
 import AllSingleProduct from "./AllSingleProduct/AllSingleProduct";
 import { CartProvider } from "react-use-cart";
 import ScrollToTop from "react-scroll-to-top";
-const ahmed = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path:"store",
-    element:<Store/>
 
+
+const ahmed = createBrowserRouter(
+  [
+    { path: "/", element: <App /> },
+    { path: "/about", element: <About /> },
+    { path: "/store", element: <Store /> },
+    { path: "/cart", element: <AllCart /> },
+    { path: "/allsingleproduct/:id", element: <AllSingleProduct /> },
+    { path: "/checkout", element: <Checkout /> },
+    { path: "/placeorder", element: <PlaceOrder /> },
+  ],
+  {
+    basename: "/Maxy-Music-Store",
   }
-  ,
-  {
-    path:"cart",
-    element:<AllCart/>
-
-  },
-  {
-    path:"allsingleproduct/:id",
-    element:<AllSingleProduct/>
-
-  },
-  {
-    path:"checkout",
-    element:<Checkout/>
-
-  },
-  {
-    path:"placeorder",
-    element:<PlaceOrder/>
-
-  },
-  
-  
-]);
+);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
