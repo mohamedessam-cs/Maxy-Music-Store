@@ -388,3 +388,11 @@ body,
     color: #fcdd44;
     font-size: 16px;
 }
+@media screen and (max-width: 450px) {
+    .categories {
+        transform: translateX(7px);
+    }
+        .form-control1 {
+        transform: translateX(44px);
+    }
+}
