@@ -76,3 +76,46 @@ text-decoration-color:yellow;
     
 }
 
+
+@media screen and (min-width:769px) and (max-width:1200px){
+    .cart-icon h1 {
+       transform: translate(-8px, -32.8px)!important;
+ 
+}
+    
+}
+.cart-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 4px;
+}
+
+.cart-icon::after {
+ content: "";
+    position: absolute;
+    left: 83px;
+    bottom: 12px;
+    width: 19%;
+    height: 2.5px;
+    background-color: yellow;
+    display: none;
+}
+
+.cart-icon:hover::after {
+  display: block;
+}
+
+@media screen and (max-width:1200px) {
+    .cart-icon::after {
+   
+    left: 48px;
+  
+    width: 25%;
+ 
+}
+    
+}
