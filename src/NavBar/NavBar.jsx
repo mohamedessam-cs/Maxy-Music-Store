@@ -48,11 +48,12 @@ function NavBar() {
                     <Link
                       to="/cart"
                       className="cart-icon"
+                      style={{textDecoration:"none",}}
                     
                     >
                       <i className="fa-solid fa-cart-shopping"></i> 
-                     <span className="cart-count"> ({totalItems}) </span>
-                    <h1>-.</h1>
+                     <span className="cart-count" > ({totalItems}) </span>
+                   
                     </Link>
                   </li>
                 </ul>
