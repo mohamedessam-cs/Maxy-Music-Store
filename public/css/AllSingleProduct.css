@@ -25,6 +25,7 @@ width: 79%;
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
 transform: translateX(-30px);
+max-height: 685px;
 }
 @media screen and  (max-width:767px) {
 
@@ -350,3 +351,24 @@ transform: translateX(-30px);
 
 
 }
+
+@media screen and (min-width: 401px) and (max-width: 530px){
+        .product-stars {
+        transform: translate(18px, -300px) !important;
+    
+    }
+        .product-new-price {
+        transform: translate(-120px, -226px) !important;
+       
+    }
+        .price-bef-dis {
+        margin-right: -4% !important;
+        transform: translateY(-196px) !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .api-img2 {
+          margin-left: -29px;
+    }
+}
+       
