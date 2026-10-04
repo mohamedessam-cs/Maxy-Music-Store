@@ -401,3 +401,29 @@ body,
         transform: translateX(81px) !important;
     }
 }
+
+@media screen and (max-width: 390px) {
+
+    .product-button {
+        
+        transform: translateX(45px);
+       
+    }
+
+
+
+}
+ @media screen and (width: 768px)  {
+    .hr-gray {
+        transform: translateX(0px);
+    }
+
+    .tm-section-title {
+        transform: translateX(-4px);
+    }
+
+    .par {
+        transform: translateX(73px);
+        margin-left: -55px;
+    }
+}
