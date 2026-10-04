@@ -402,28 +402,23 @@ body,
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
 
     .product-button {
         
-        transform: translateX(45px);
+        transform: translateX(52px);
        
     }
 
+}
+@media screen and (min-width:401px) and (max-width: 800px) {
 
+    .product-button {
+        
+           transform: translateX(237px);
+       
+    }
 
 }
- @media screen and (width: 768px)  {
-    .hr-gray {
-        transform: translateX(0px);
-    }
 
-    .tm-section-title {
-        transform: translateX(-4px);
-    }
 
-    .par {
-        transform: translateX(73px);
-        margin-left: -55px;
-    }
-}
