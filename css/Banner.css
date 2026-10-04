@@ -1,3 +1,56 @@
+@media screen and (max-width:500px) {
+       .tm-banner-subtitle{
+            font-size: 16px !important;
+    }
+        .tm-banner-link {
+        padding-left: 12px !important;
+                margin-top: 23px;
+    }
+    /* .link {
+        transform: translateX(-129px) !important;
+        margin-bottom: 47px !important;
+    
+       
+    } */
+       
+    
+}
+@media screen  and (min-width:400px) and (max-width:450px) {
+
+ .par {
+        transform: translateX(106px) !important;}
+
+
+}
+@media screen  and (min-width:450px) and (max-width:560px) {
+
+ .par {
+        transform: translateX(162px) !important;}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:401px) {
+ .par {
+        transform: translateX(75px) !important;}}
+@media screen and (max-width:420px) {
+
+
+
+
+    .link {
+        transform: translateX(-180px) !important;
+        margin-bottom: 60px !important;
+        
+     }
+}
+
+
+
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
     position: absolute;
