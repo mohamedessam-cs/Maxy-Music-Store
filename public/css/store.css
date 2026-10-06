@@ -96,7 +96,37 @@
     margin-top: 15px;
     min-height: 45px;
 }
+@media screen and (width:768px) {
 
+    .wd-action-text {
+
+        font-size: 16px !important;
+    }
+    .product-card h5:first-of-type {
+    font-size: 13px;
+    
+}
+   .maxy-footer {
+
+    height: 924px;
+} 
+}
+@media screen and (width:1032px) {
+
+   .maxy-footer {
+
+  height: 1074px;
+} 
+
+    
+}
+@media screen and (min-width:801px) and (max-width:1300px) {
+
+.product-button {
+        transform: translateX(241px) ;
+}
+}
+  
 .product-card h5:nth-of-type(2) {
     font-size: 13px;
     color: #888;
