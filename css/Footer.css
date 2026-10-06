@@ -176,6 +176,19 @@
    RESPONSIVE
 ========================= */
 
+@media screen and (min-width: 390px) and (max-width: 391px) {
+
+    .maxy-footer {
+             height: 1110px;}
+            
+            .add-cart-0 {
+  
+    padding: 8px 106px;
+  
+}
+            
+            }
+
 @media (max-width: 767px) {
 
     .maxy-footer {
