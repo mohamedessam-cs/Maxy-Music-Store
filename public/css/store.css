@@ -115,11 +115,29 @@
 
    .maxy-footer {
 
-  height: 1074px;
+      height: 1074px;
 } 
 
     
 }
+@media screen and (width:390px) {
+
+   .maxy-footer {
+
+      height: 200px;
+} 
+
+    
+}
+
+
+
+
+
+
+
+    
+
 @media screen and (min-width:801px) and (max-width:1300px) {
 
 .product-button {
